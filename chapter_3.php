@@ -165,6 +165,7 @@
 // $name= " ";
 
 
+
 // if(isset($name)){
 //     echo "Name is set";
 // } else {
@@ -181,7 +182,37 @@
 //     echo 'Name is empty';
 // }
 
-$fruits = array('apple','bannana','orange','plum','dates','mango');
+// $fruits = array('apple','bannana','orange','plum','dates','mango');
+// $random = array("a" => 12,"b" => 21,"c"=>22,"d" => 23, "e" => 24,);
+// $someFruits = array_slice($fruits,-5,3 ) ;
+// print_r($someFruits);
 
-$someFruits = array_slice($fruits,-5,3 ) ;
-print_r($someFruits);
+// $newFruits1 = array_slice($fruits,0,3);
+// $newFruits2 = array_slice($fruits,3,null,true);
+
+// $newFruits = array_merge($newFruits1,$newFruits2);
+// print_r($newFruits1);
+// print_r($newFruits2);
+// print_r($newFruits);
+
+
+// $newFruitsPlus = $newFruits1 + $newFruits2;
+
+// print_r($newFruitsPlus);
+
+// $r1 = array_slice($random,0,2);
+// $r2 = array_slice($random,4,null);
+// print_r($r1);
+// print_r($r2);
+
+$fruits = array('a'=> 'apple','b' => 'bannana','f' =>'orange','c' => 'plum', 'd' => 'dates', 'e' => 'mango');
+$numbers = array(1,2,3,4,54,32,45,56);
+
+asort($fruits);
+// print_r($fruits);
+asort($numbers);
+print_r($numbers);
+
+foreach($numbers as $number){
+    echo $number. "\n";
+};
