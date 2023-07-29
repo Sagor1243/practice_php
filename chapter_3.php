@@ -182,7 +182,8 @@
 //     echo 'Name is empty';
 // }
 
-// $fruits = array('apple','bannana','orange','plum','dates','mango');
+ 
+// $fruits = array( 'apple',  'bannana', 'orange',  'plum',   'dates',   'mango');
 // $random = array("a" => 12,"b" => 21,"c"=>22,"d" => 23, "e" => 24,);
 // $someFruits = array_slice($fruits,-5,3 ) ;
 // print_r($someFruits);
@@ -205,14 +206,104 @@
 // print_r($r1);
 // print_r($r2);
 
-$fruits = array('a'=> 'apple','b' => 'bannana','f' =>'orange','c' => 'plum', 'd' => 'dates', 'e' => 'mango');
-$numbers = array(1,2,3,4,54,32,45,56);
+// $fruits = array('a'=> 'apple','b' => 'bannana','f' =>'orange','c' => 'plum', 'd' => 'dates', 'e' => 'mango');
+// $numbers = array(1,2,3,4,54,32,45,56);
 
-asort($fruits);
+// asort($fruits);
+// // print_r($fruits);
+// asort($numbers);
+// print_r($numbers);
+
+// foreach($numbers as $number){
+//     echo $number. "\n";
+// };
+
+
+// $fruits = array('apple','Bannana','orange','plum','dates','mango');
+// sort($fruits, SORT_STRING | SORT_FLAG_CASE);
 // print_r($fruits);
-asort($numbers);
-print_r($numbers);
 
-foreach($numbers as $number){
-    echo $number. "\n";
-};
+// $numbers = array(1,2,3,4,5,6);
+
+// if(in_array(5,$numbers)) {
+//     echo '5 is found'."\n";
+// } 
+
+
+
+// $offset = array_search(5,$numbers);
+// echo $offset;
+
+
+// $fruits1 = array("a" => "apple", "b" => "banana","c"=> "lemon");
+// $fruits2 = array("c" => "lemon","d" => "apple");
+
+
+// //intersect works in array matching;
+// $common = array_intersect($fruits1, $fruits2);
+// $common = array_intersect_assoc($fruits1, $fruits2);
+
+// print_r($common);
+// array_diff use for unmatcing ;
+
+
+
+
+
+
+$numbers = array(1,3,4,5,6,67,8,9,10);
+
+// function square($n){
+//     printf("square of %d is %d \n",$n,$n*$n);
+// };
+
+// array_walk($numbers,'square');
+
+
+// $numbers1 = array(1,2,3,4,6,7,8);
+
+// function square($n){
+//     printf("square of %d is %d \n",$n,$n*$n  );
+// };
+
+
+// array_walk($numbers1,'square');
+
+
+// function cube($n){
+//     return $n*$n*$n;
+// };
+
+// $newArray = array_map('cube' ,$numbers);
+
+// // print_r($numbers);
+
+// print_r($newArray);
+
+
+// function even($n) {
+//     return $n % 2 == 0;
+// }
+
+// function odd($n){
+//     return $n % 2 == 1;
+// }
+
+
+// $evenNumber = array_filter($numbers,'even');
+// $oddNumber = array_filter($numbers,'odd');
+
+// print_r($evenNumber);
+// print_r($oddNumber);
+
+
+// $persons = array('abul','sujon','saiful','sagor');
+// function filterBys($name){
+//      return $name[0] == 's';
+
+// };
+
+// $newperson = array_filter($persons,'filterBys');
+// print_r($newperson);
+
+ 
