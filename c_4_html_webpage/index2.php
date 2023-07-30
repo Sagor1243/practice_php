@@ -25,17 +25,25 @@
 
                 <p> 
 
-                
-                    <?php if (isset($_POST['fname']) && !empty($_POST['lname'])) { ?> 
-                First Name : <?php echo $_POST['fname'];?> <b/>
+                <?php 
+                $fname = '';
+                $lname = '';
+                ?>
+                    <?php if (isset($_REQUEST['fname']) && !empty($_REQUEST['fname'])) { 
+                    $fname = $_POST['fname'];
+             } ?>
+            
+               <?php if(isset ($_REQUEST['lname']) && !empty ($_REQUEST['lname'])) { 
 
-                <?php } ?>
-                "\n";
-               <?php if(isset ($_POST['lname']) && !empty ($_POST['lname'])) {?>
-                Last Name: <?php echo $_POST['lname'];?> <br/>
-                <?php } ?>
+                $lname = $_REQUEST['lname'];
+            } ?>
 
                </p>
+
+               <!-- <p>
+                First Name:<?php echo $fname?>;
+                Last Name : <?php echo $lname ?>;
+               </p> -->
             </div>
         </div>
 
@@ -43,10 +51,10 @@
             <div class="column column-60 column-offset-20">
                 <form method="POST">
                     <label for="fname">First Name</label>
-                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="fname" id="fname" value="<?php echo $fname?>">
 
                     <label for="lname"></label>
-                    <input type="text" name="lname" id="lname">
+                    <input type="text" name="lname" id="lname" value="<?php echo $lname?>">
 
 
                     <input type="submit">
