@@ -48,7 +48,7 @@
 
 
 
-
+ 
 //some information
  //data entry this 2 item;
 // array_unshift();first element item add;
@@ -79,9 +79,7 @@
 // }
 
 // $keys = array_values($foods);
-// for($i = 0; $i<count($values); $i++){
-//     $ 
-// }
+ 
 
 
 //  $foods = [
@@ -162,9 +160,10 @@
 // print_r($person);
 
 
+
+
+
 // $name= " ";
-
-
 
 // if(isset($name)){
 //     echo "Name is set";
@@ -239,7 +238,8 @@
 // $fruits2 = array("c" => "lemon","d" => "apple");
 
 
-// //intersect works in array matching;
+// intersect works in array matching;
+//intersect  assoc works in array key matching;
 // $common = array_intersect($fruits1, $fruits2);
 // $common = array_intersect_assoc($fruits1, $fruits2);
 
