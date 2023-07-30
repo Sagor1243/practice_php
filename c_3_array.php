@@ -307,3 +307,66 @@ $numbers = array(1,3,4,5,6,67,8,9,10);
 // print_r($newperson);
 
  
+// $numbers = array(1,2,3,4,5,6,7,8,9,10);
+
+// function sum($oldvalue, $newvalue) {
+//     if($newvalue % 2 == 1 ) {
+//         return $oldvalue+$newvalue;
+//     }
+//     return $oldvalue;
+// }
+
+// $sum = array_reduce($numbers,'sum');
+// echo $sum; 
+
+
+
+// $numbers = array(1,2,3,4,5,6,7);
+// function sum($oldvalue,$newvalue) {
+//     if($newvalue % 2 == 0) {
+//         return $oldvalue+$newvalue;
+//     }
+//     return $oldvalue;
+// }
+
+
+// $sum = array_reduce($numbers, 'sum');
+
+
+// echo $sum;
+
+
+// $numbers = array(1,2,3,4,5,6,7);
+
+// function sum($oldvalue,$newvalue){
+//     return $oldvalue+$newvalue;
+// }
+
+
+// $sum = array_reduce($numbers,'sum');
+// echo $sum;
+
+
+// $student = array('sagor','easin','anis','rakib','abdul');
+
+// list($first,$second,$third,$four,$five) = $student;
+
+// echo $first;
+
+
+
+// $numbers = range(12,20);
+
+// print_r($numbers);
+
+
+// foreach(range(0,50,7) as $evenNumber) {
+//     if($evenNumber > 0 ) {
+//         echo $evenNumber."\n";
+//     }
+   
+// }
+
+
+
+

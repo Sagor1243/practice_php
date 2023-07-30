@@ -29,11 +29,14 @@
 
 // $n = 7;
 // $m = $n++;"
+//echo $m;
 
 // $fname = "Sagor";
 // $lname = "Saha";
 
 // printf('my name is %2$s %1$s',$fname,$lname);
+
+ 
 
 // echo "\n";
 
@@ -79,8 +82,7 @@
 // } else {
 //    echo "this person not a teenager";
 // }
-
-
+ 
 // $year = 2000;
 
 // if($year % 4 == 0 && $year % 100 == 0 && $year % 400 == 0 ) {
@@ -141,21 +143,23 @@
 
  
 
-// $color = 'color';
-// switch($color) {
-//     case 'blue':
-//     case 'green':
-//         echo ucwords($color)." is our favourite color";
-//         break;
-//         case 'red':
-//         echo 'red is our favourite color';
-//         break;
-//         default:
-//         echo "this is not a valid color";
+$color = 'color';
+switch($color) {
+    case 'blue':
+    case 'green':
+        echo ucwords($color)." is our favourite color";
+        break;
+        case 'red':
+        echo 'red is our favourite color';
+        break;
+        default:
+        echo "this is not a valid color";
 
     
-// }
+}
 
+
+ 
 
 // $n = -13;
 // $r = $n % 2;
@@ -201,6 +205,7 @@
 //     echo $i.PHP_EOL;
 // }
 
+ 
 // $i = 0;
 // do{
 //     $i++;
@@ -217,12 +222,17 @@
 //     echo PHP_EOL;
 // }
 
+// for($i = 10, $j = 0; $i > 0; $i -= 1 $j++) {
+//     echo $i.":".$j;
+//     echo PHP_EOL;
+// }
+
 
 
 // $n = 3;
 // for($i = $n, $factorial = 1; $i > 1; $i--){
 //     $factorial *= $i;
-// }
+// };
 
 // printf("Factorial of %d is %d", $n,$factorial);
 
@@ -234,14 +244,14 @@
 // }
 // printf("Factorial of  %d is %d",$n,$factorial);
 
+ 
 
-
-// for ($i = 0; $i <= 100; $i++) {
-//     if($i % 7 == 0 ) echo $i."\n";
-//     if($i % 11 == 0) echo $i."\n";
-// echo $i % 7 ==0 ? $i."\n":'';
-// echo $i % 11 ==0 ? $i."\n":'';
-// }
+for ($i = 0; $i <= 100; $i++) {
+    if($i % 7 == 0 ) echo $i."\n";
+    if($i % 11 == 0) echo $i."\n";
+echo $i % 7 ==0 ?  $i."\n":'' ;
+echo $i % 11 ==0 ? $i."\n":'';
+}
 
 
 // $j = 0;
@@ -307,6 +317,8 @@
 //     }
 //     return $result;
 // }
+
+ 
 
 
  
