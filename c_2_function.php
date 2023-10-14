@@ -59,8 +59,8 @@ include_once "chapter_1.php";
 // echo sum(2,3);
 
 
-//recursion mean nije nije  call  
-//recarsive function
+// recursion mean nije nije  call  
+// recarsive function
 
  
 // function printNumber($counter,$end,$stepping=1){

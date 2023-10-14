@@ -49,30 +49,30 @@
 
 
  
-//some information
- //data entry this 2 item;
-// array_unshift();first element item add;
-// array_push();last element one item add;
+some information
+ data entry this 2 item;
+array_unshift();first element item add;
+array_push();last element one item add;
 
-//data remove for this 2 item;
-// array_shift(); first element remove;
-// array_pop(); last element remove;
-
-
-// $students = [
-//     '12' => 'sagor',
-//     '13' => 'hasan',
-//     '14' => 'easin'
-// ];
-// echo $students[12];
+data remove for this 2 item;
+array_shift(); first element remove;
+array_pop(); last element remove;
 
 
-// $food = [
-//     'vagetable' => 'saksobji,kola,am,jam',
-//     'fruits' => 'am,jam, kola',
+$students = [
+    '12' => 'sagor',
+    '13' => 'hasan',
+    '14' => 'easin'
+];
+echo $students[12];
 
-// ];
-// echo $food['vagetable'];
+
+$food = [
+    'vagetable' => 'saksobji,kola,am,jam',
+    'fruits' => 'am,jam, kola',
+
+];
+echo $food['vagetable'];
 
 // foreach($food as $key => $value){
 //     echo $key."=".$value."\n";
